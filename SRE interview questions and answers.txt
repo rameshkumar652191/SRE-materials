@@ -1,0 +1,208 @@
+SRE interview questions and answers
+===================================
+
+SRE is one of the trending roles in the tech industry these days, although it is much more than buzz. It is a relatively new practice that can be implemented for improved system management and problem-solving. We may think of this concept as a new way of system administration. In this concept software engineers use to do tasks that are usually performed by the operations team. SRE engineers suppose to ensure that application is delivered and deployed flawlessly and they are responsible for availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning
+
+In recent years, there has been a huge increase in SRE engineer’s job listings. Big tech giants like Google, Facebook, and Amazon, frequently use to have multiple openings for SRE engineers. However, the market is highly competitive, and the questions asked in an SRE interview can cover a lot of challenging topics.
+
+From the below SRE interview questions and answers you can prepare for the SRE role – but you need both practical and theoretical knowledge that will help you to get through an SRE interview.
+
+1. What is difference between DevOps & SRE?
+
+Answer:-
+A. Reducing Organizational Silos:
+
+	SRE treats Ops more like a software engineering problem.
+	DevOps focuses on both Dev and Ops departments to bridge these two worlds.
+
+B. Leveraging Tooling and Automation
+
+	SRE is focused on embracing consistent technologies and information access across the IT teams.
+	DevOps focuses on automation and the adoption of technology.
+
+C. Measuring Everything
+
+	DevOps is primarily focused on the process performance and results achieved with the feedback loop to realize continuous improvement.
+
+	SRE requires measurement of SLOs as the dominant metrics since the framework observes Ops problems as software engineering problems.
+
+2. Why do you think that you will become a Site Reliability Engineer?
+
+Answer:-
+
+	I have a practical understanding and working knowledge in DevOps with a deep understanding of:
+	The inter-relationship of SRE with DevOps and other popular frameworks
+	The underlying principles behind SRE
+	Service Level Objectives (SLO’s) and their user focus
+	Service Level Indicators (SLI’s) and the modern monitoring landscape
+	Error budgets and the associated error budget policies
+	Toil and its effect on an organization’s productivity
+	Some practical steps that can help to eliminate toil
+	Observability as something to indicate the health of a service
+	SRE tools, automation techniques, and the importance of security
+	Anti-fragility, our approach to failure and failure testing
+	The organizational impact that introducing SRE brings
+Hence, I feel Site Reliability Engineer is the perfect job role for me.
+
+3. What is SLO – please explain?
+
+Answer:- 
+	An SLO or Service Level Objective is basically a key element of a service-level agreement (SLA) between a service provider and a customer that is agreed upon to measure the performance of service providers and are formed as a way of avoiding disputes. Between two parties.
+
+	SLO can be a specific measurable characteristic of SLA like availability, throughput, frequency, response time, or quality. These SLOs togethe define the expected service between the provider and the customer while varying depending on the service’s urgency, resources, and budget. SLOs provide a quantitative means to define the level of service a customer can expect from a provider.
+	
+5. How do you differentiate between process and thread?
+
+	When execution of a program allows you to perform the appropriate actions specified in the program, that’s called process.
+	On the other hand, the thread is the segment of processes.
+	Process is not lightweight. Threads are lightweight.
+	The process takes more time to terminate. Threads take more time to terminate.
+	Process creation takes more time. Thread creation takes less time.
+	The process takes more time in context switching. Threads take less time in context switching.
+	The process is more isolated. Threads share memory.
+	The process does not share data. Threads share data with each other.
+
+6. What is Error Budgets? And for what error budgets is used?
+
+	Error budget defines the maximum amount of time a technical system can fail without contractual consequences.
+
+	Error budget encourages the teams to minimize real incidents and maximize innovation by taking risks within acceptable limits.
+
+7. Define the Error budget policy?
+
+An error budget policy demonstrates how a business decides to trade off reliability work against other feature work when SLO indicates a service is not reliable enough.
+
+8. What activity means Reducing Toil?
+
+Activities that can reduce toil are:
+
+	Creating external automation
+	Creating internal automation
+	Enhancing the service to not require maintenance intervention.
+
+9. What is Service Level Indicators (SLI)
+
+A Service Level Indicator (SLI) is a measure of the service level provided by a service provider to a customer. SLIs form the basis of Service Level Objectives (SLOs), which in turn form the basis of Service Level Agreements (SLAs). An SLI can also be called an SLA metric.
+
+Although every system is different in the services provided, common SLIs are used pretty often. Common SLIs include latency, throughput, availability, and error rate; others include durability (in storage systems), end-to-end latency (for complex data processing systems, especially pipelines), and correctness.
+
+10. Enlist all the Linux signals you are aware of
+
+The common Linux signals are mentioned below:
+
+	SIGHUP
+	SIGINT
+	SIGQUIT
+	SIGFPE
+	SIGKILL
+	SIGALRM
+	SIGTERM
+
+11. Have you ever heard of TCP? 
+
+Please enlist some TCP connection list
+	
+	The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite. TCP originated in the initial network implementation in which it complemented the Internet Protocol (IP). Hence, it is broadly referred to as TCP/IP.
+
+Few TCP connection states are:
+
+1) LISTEN – Server is listening on a port, such as HTTP
+2) SYNC-SENT – Sent a SYN request, waiting for a response
+3) SYN-RECEIVED – (Server) Waiting for an ACK, occurs after sending an ACK from the server
+4) ESTABLISHED – 3 way TCP handshake has completed
+
+12. What is Inode?
+
+An inode is a data structure in Unix that contains metadata about a file. Some of the items contained in an inode are:
+
+1) mode
+2) owner (UID, GID)
+3) size
+4) atime, ctime, time
+
+13. What are the Linux kill command? 
+
+Enlist all the Linux kill commands with its functions
+
+The Linux Kill commands are:
+
+Killall: Killall command is used to kill all the processes with a particular name.
+Pkill: This command is a lot like killall, except it kills processes with partial names.
+Xkill: xkill allows users to kill command by clicking on the window
+
+14. What is observability, how to improve organizations’ systems observability?
+
+Observability is basically a conversation around the measurement and instrument of an organization.
+
+	Understand what types of data flow from an environment, and which of those data types are relevant and useful to your observability goals
+
+	Get a clear vision of what a team cares about and figure out how your strategy is making sense of data by distilling, curating, transforming it into actionable insights into the performance of your systems.
+	
+	Observability offer potentially useful clues about an organization’s DevOps maturity level.
+
+16. What is DHCP?
+
+The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used on Internet Protocol (IP) networks, whereby a DHCP server dynamically assigns an IP address and other network configuration parameters to each device on the network, so they can communicate with other IP networks.
+
+17. Why we used DHCP Server?
+
+	Requesting IP addresses and networking parameters automatically from the Internet service provider (ISP).
+
+	Reducing the need for a network administrator or a user to manually assign IP addresses to all network devices.
+
+18. What is the difference between snat(source network) and dnat(destination network)?
+
+	Source Network Address Translation (source-nat or SNAT) is a technique that allows traffic from a private network to go out to the internet.
+
+	Destination network address translation (DNAT) is a technique for transparently changing the destination IP address of an end route packet and performing the inverse function for any replies. Any router situated between two endpoints can perform this transformation of the packet.
+
+Difference:
+
+On either side of a NAT device, we have an outside world and inside the world, When the inside world communicates with the outside world SNAT happens. When the outside world communicates with the inside world DNAT happens.
+
+When many internal private IP addresses get translated to one public IP address, it’s called Static SNAT. When many internal private IP addresses get translated to many public IP addresses it’s called Dynamic SNAT
+
+Source NAT changes the source address in the IP header packet. Source NAT changes the destination address in the IP header packet.
+
+SNAT allows multiple hosts on the “inside” to get to any host on the “outside”. DNAT allows multiple hosts on the “outside” to get to any host on the “inside”
+
+19. Define Hardlink and soft link with examples?
+
+A soft link is an actual link to the original file that can cross the file system, allows you to link between directories, and has different inode numbers or file permission to the original file.
+
+A softlink looks like this: $ SRE softlink.file
+
+A hard link is a mirror copy of the original file that can’t cross the file system boundaries, can’t link directories, and has the same inode number and permissions as the original.
+
+Example: $ SRE hardlink.file
+
+20. Can you describe the Best SRE Tools for each Stage of DevOps?
+
+The appropriate SRE tools for each stage of DevOps are:
+
+Plan: Jira, Pivotal Tracker, and other task management tool
+Create: Source-control tools like GitHub
+Verify: CI/CD tools like Jenkins or CircleCI
+Package: Container orchestration services like Kubernetes or Mesosphere.
+Configure: Tools like Terraform and Ansible
+
+21. How will you secure your Docker containers?
+
+To secure your docker container, you need to follow these guidelines:
+
+	Choose third party containers carefully
+	Enable Docker content trust
+	Set resource limit for your containers
+	Consider a third-party security tool
+	Use Docker Bench Security
+
+22. Can you describe the Best SRE Tools for each Stage of DevOps?
+
+The appropriate SRE tools for each stage of DevOps are:
+
+Plan: Jira, Pivotal Tracker, and other task management tool
+Create: Source-control tools like GitHub 
+Verify: CI/CD tools like Jenkins or  CircleCI
+Package: Container orchestration services like Kubernetes or Mesosphere.
+Configure: Tools like Terraform and Ansible
+
